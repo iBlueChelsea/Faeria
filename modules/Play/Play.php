@@ -27,52 +27,52 @@ class Play extends Module
             "currentAction" => "",
             "wheelbuttons" => [
                 "wheel-A1" => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                     "action" => "forest",
                 ],
                 "wheel-A2" => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                     "action" => "lake",
                 ],
                 "wheel-B1" => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                     "action" => "mountain",
                 ],
                 "wheel-B2" => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                     "action" => "prairie",
                 ],
                 "wheel-B3" => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                     "action" => "draw",
                 ],
                 "wheel-C1" => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                     "action" => "desert",
                 ],
                 "wheel-C2" => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                     "action" => "faeria",
                 ],
             ],
             "hand" => [
                 1 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
                 2 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
                 3 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
                 4 => [
@@ -80,23 +80,23 @@ class Play extends Module
                     "selected" => false,
                 ],
                 5 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
                 6 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
                 7 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
                 8 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
                 9 => [
-                    "selectable" => true,
+                    "selectable" => false,
                     "selected" => false,
                 ],
             ],
@@ -104,7 +104,7 @@ class Play extends Module
                 "A1" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["A2", "B2", "B3"],
                     "adjacentNonTile" => "A0",
@@ -112,7 +112,7 @@ class Play extends Module
                 "A2" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["A1", "B3", "B4"],
                     "adjacentNonTile" => "A3",
@@ -120,7 +120,7 @@ class Play extends Module
                 "B1" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B2", "C1", "C2"],
                     "adjacentNonTile" => "A0",
@@ -128,7 +128,7 @@ class Play extends Module
                 "B2" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["A1", "B1", "B3", "C2", "C3"],
                     "adjacentNonTile" => "A0",
@@ -136,7 +136,7 @@ class Play extends Module
                 "B3" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["A1", "A2", "B2", "B4", "C3", "C4"],
                     "adjacentNonTile" => null,
@@ -144,7 +144,7 @@ class Play extends Module
                 "B4" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["A2", "B3", "B5", "C4", "C5"],
                     "adjacentNonTile" => "A3",
@@ -152,7 +152,7 @@ class Play extends Module
                 "B5" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B4", "C5", "C6"],
                     "adjacentNonTile" => "A3",
@@ -160,7 +160,7 @@ class Play extends Module
                 "C1" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B1", "C2", "D1"],
                     "adjacentNonTile" => "D0",
@@ -168,7 +168,7 @@ class Play extends Module
                 "C2" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B1", "B2", "C1", "C3", "D1", "D2"],
                     "adjacentNonTile" => null,
@@ -176,7 +176,7 @@ class Play extends Module
                 "C3" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B2", "B3", "C2", "C4", "D2", "D3"],
                     "adjacentNonTile" => null,
@@ -184,7 +184,7 @@ class Play extends Module
                 "C4" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B3", "B4", "C3", "C5", "D3", "D4"],
                     "adjacentNonTile" => null,
@@ -192,7 +192,7 @@ class Play extends Module
                 "C5" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B4", "B5", "C4", "C6", "D4", "D5"],
                     "adjacentNonTile" => null,
@@ -200,7 +200,7 @@ class Play extends Module
                 "C6" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["B5", "C5", "D5"],
                     "adjacentNonTile" => "D6",
@@ -208,7 +208,7 @@ class Play extends Module
                 "D1" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["C1", "C2", "D2", "E1", "E2"],
                     "adjacentNonTile" => "D0",
@@ -216,7 +216,7 @@ class Play extends Module
                 "D2" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["C2", "C3", "D1", "D3", "E2", "E3"],
                     "adjacentNonTile" => null,
@@ -224,7 +224,7 @@ class Play extends Module
                 "D3" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["C3", "C4", "D2", "D4", "E3", "E4"],
                     "adjacentNonTile" => null,
@@ -232,7 +232,7 @@ class Play extends Module
                 "D4" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["C4", "C5", "D3", "D5", "E4", "E5"],
                     "adjacentNonTile" => null,
@@ -240,7 +240,7 @@ class Play extends Module
                 "D5" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["C5", "C6", "D4", "E5", "E6"],
                     "adjacentNonTile" => null,
@@ -248,7 +248,7 @@ class Play extends Module
                 "E1" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["D1", "E2", "F1"],
                     "adjacentNonTile" => "D0",
@@ -256,7 +256,7 @@ class Play extends Module
                 "E2" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["D1", "D2", "E1", "E3", "F1", "F2"],
                     "adjacentNonTile" => null,
@@ -264,7 +264,7 @@ class Play extends Module
                 "E3" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["D2", "D3", "E2", "E4", "F2", "F3"],
                     "adjacentNonTile" => null,
@@ -272,7 +272,7 @@ class Play extends Module
                 "E4" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["D3", "D4", "E3", "E5", "F3", "F4"],
                     "adjacentNonTile" => null,
@@ -280,7 +280,7 @@ class Play extends Module
                 "E5" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["D4", "D5", "E4", "E6", "F4", "F5"],
                     "adjacentNonTile" => null,
@@ -288,7 +288,7 @@ class Play extends Module
                 "E6" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["D5", "E5", "F5"],
                     "adjacentNonTile" => "D6",
@@ -296,7 +296,7 @@ class Play extends Module
                 "F1" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["E1", "E2", "F2"],
                     "adjacentNonTile" => "G0",
@@ -304,7 +304,7 @@ class Play extends Module
                 "F2" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["E2", "E3", "F1", "F3", "G1"],
                     "adjacentNonTile" => "G0",
@@ -312,7 +312,7 @@ class Play extends Module
                 "F3" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["E3", "E4", "F2", "F4", "G1", "G2"],
                     "adjacentNonTile" => null,
@@ -320,7 +320,7 @@ class Play extends Module
                 "F4" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["E4", "E5", "F3", "F5", "G2"],
                     "adjacentNonTile" => "G3",
@@ -328,7 +328,7 @@ class Play extends Module
                 "F5" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["E5", "E6", "F4"],
                     "adjacentNonTile" => "G3",
@@ -336,7 +336,7 @@ class Play extends Module
                 "G1" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["F2", "F3", "G2"],
                     "adjacentNonTile" => "G0",
@@ -344,7 +344,7 @@ class Play extends Module
                 "G2" => [
                     "selectable" => false,
                     "selected" => false,
-                    "occupantSelectable" => true,
+                    "occupantSelectable" => false,
                     "occupantSelected" => false,
                     "adjacent" => ["F3", "F4", "G1"],
                     "adjacentNonTile" => "G3",
@@ -366,7 +366,7 @@ class Play extends Module
                 "status" => [
                     "finished" => false,
                     "winner" => "",
-                    "turn" => 1,
+                    "turn" => 0,
                     "current" => "player1",
                 ],
                 "board" => [
@@ -1773,7 +1773,7 @@ class Play extends Module
                     "name" => $this->getUserName(),
                     "shuffle" => false,
                     "mulligan" => true,
-                    "wheel_used" => false,
+                    "wheel_used" => true,
                     "wheel_neutral_counter" => 0,
                     "health_dmg" => 0,
                     "faeria" => 3,
