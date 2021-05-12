@@ -97,6 +97,7 @@ class Game extends Module
                 "summon" => boolval($card['summon']), 
                 "gift" => boolval($card['gift']),
                 "lastword" => boolval($card['lastword']), 
+                "production" => boolval($card['production']),
                 "target" => boolval($card['target']),
             ],
             "legendary" => boolval($card['legendary']),
