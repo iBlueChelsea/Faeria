@@ -27,7 +27,7 @@ class Game extends Module
     {
         $react_state = json_decode($state);
         $react_state->data->player2->name = $this->getUserName();
-        $react_state->data->player2->cards = $this->getCards();
+        $react_state->data->player2->cards = (object) $this->getCards();
         return json_encode($react_state);
     }
 
