@@ -7,12 +7,11 @@ class Config
     public function __construct()
     {
         $this->config = [
-            'host' => 'localhost',
+            'host' => '172.17.0.1',
             'port' => 3306,
             'db_name' => 'cheekia',
-            'db_username' => 'cheekia',
-            'db_password' => 'phpmyadmin',
+            'db_username' => 'szalaya',
+            'db_password' => 'szalaya',
         ];
     }
 }
-
