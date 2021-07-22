@@ -5,8 +5,8 @@ require_once "config/db.php";
 $pdo = new DB();
 $db = $pdo->connectToDB();
 
-$nameFilter = $_REQUEST["name"];
-$landFilter = $_REQUEST["land"];
+$nameFilter = $_REQUEST["name"] ?? null;
+$landFilter = $_REQUEST["land"] ?? null;
 
 $cards = [];
 
